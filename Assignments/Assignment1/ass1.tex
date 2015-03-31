@@ -135,16 +135,17 @@ Now we compute $H_1(K):= \ker\partial_1/\im\partial_2$. We have,
 \end{equation*}
 We wish to show that these are generators for $H_1(K)$. 
 To this end, we wish to show that any element of $\ker(\partial_1)$
-is homotopic to an element carried by $C_1(L)$. 
+is homologous to an element carried by $C_1(L)$. 
 
 Let $c \in \ker(\partial_1)$. We need to show that we can add
 elements of $B_1(K)$ to $c$ to obtain a chain carried by $L$.
 
-Add multiples elements of $B_1(K)$ to $c$ in the following order:\\
+Add multiples of elements of $B_1(K)$ to $c$ corresponding to the simplices
+labelled in the following order:\\
 \includegraphics[width=40mm]{klein4.png}\\
-So that the only edges which are not annihilated are the ones shown below\\
-\includegraphics[width=40mm]{klein5.png}.
-Hence $c$ is homotopic to a chain carried by the above edges. Now write,
+So that the only edges which are not annihilated are the ones shown below:\\
+\includegraphics[width=40mm]{klein5.png}\\
+Hence $c$ is homologous to a chain carried by the above edges. Now write,
 \begin{equation*}
     c+B_1(K) = \sum_{\sigma \in K,|\sigma| = 2} m_\sigma \sigma + B_1(K).
 \end{equation*}
@@ -152,7 +153,7 @@ where the only coefficients $m_\sigma$ not equal to zero are the ones shown abov
 Now since $\partial_1(c) = 0$, we must have that $n_{FG} = n_{DF} = 0$,
 and $n_{HI} = n_{DI} = 0$. 
 
-Hence $c$ is homotopic to a chain carried by $L$. 
+Hence $c$ is homologous to a chain carried by $L$. 
 
 Let $b \in \ker(\partial_1)\cap C_1(L) = Z_1(L)$. Suppose
 that
@@ -171,18 +172,18 @@ by
 \end{equation*}
 Hence $H_1(K)$ is the subgroup generated
 by these two elements. Since the first one
-has order $0$ and the second has order $2$, this means
+has order $2$ and the second has order $0$, this means
 \begin{equation*}
     H_1(K) \isom \Itgr\times \Itgr/2\Itgr.
 \end{equation*}
 
 To compute $H_2(K)$, note that $C_3(K) = 0$, since there are no $3$-simplices
-in $K$. Hence $H_2(K) = \ker\partial_2$. Suppose that $C \in C_2(K)$ is a chain
+in $K$. Hence $H_2(K) = \ker\partial_2$. Suppose that $c \in C_2(K)$ is a chain
 such that $\partial_2(C)$ is carried by $L$. Let
 \begin{equation*}
     c = \sum_{\sigma \in K,|\sigma| = 3} n_\sigma \sigma.
 \end{equation*}
-Then all the $n_\sigma$ are equal.
+Now we prove that all the $n_\sigma$ are equal.
 
 Let $\sigma_0 = K_{FGH}$. Then none of the lines composing the boundary of $\sigma_0$
 are in $L$, so if we consider all the simplicies surrounding $\sigma_0$, which we call
