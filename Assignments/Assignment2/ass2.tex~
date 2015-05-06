@@ -1,0 +1,59 @@
+\documentclass{unswmaths}
+
+\usepackage{unswshortcuts}
+\usepackage[all]{xy}
+\usepackage{csquotes}
+
+\begin{document}
+
+\subject{Algebraic Topology}
+\author{Edward McDonald}
+\title{Assignment 2}
+\studentno{z3375335}
+
+\newcommand{\Hilb}{\mathcal{H}}
+\newcommand{\Proj}{\mathbf{P}}
+\newcommand{\M}{\mathcal{M}}
+\newcommand{\Dom}{\operatorname{Dom}}
+\newcommand{\sgn}{\operatorname{sgn}}
+\newcommand{\Ha}{\mathcal{H}}
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\C}{\mathcal{C}}
+\newcommand{\D}{\mathcal{D}}
+\newcommand{\E}{\mathcal{E}}
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\G}{\mathcal{G}}
+\setlength\parindent{0pt}
+
+\unswtitle{}
+
+\section*{Question 1}
+\begin{proposition}
+    Let $\C$, $\D$ and $\E$ be categories, and $\F:\C\to\D$
+    and $\G:\D\to\E$ are functors. Then the composite 
+    $\G\F:\C\rightarrow \E$, defined by $(\G\F)(x) = \G(\F(x))$
+    for $x \in \operatorname{Obj}(\C)$
+    and $(\G\F)(f) = \G(\F(f))$ for a morphism $f$, is a functor.
+\end{proposition}
+\begin{proof}
+    It is necessary to prove,
+    \begin{enumerate}
+        \item{} If $x \in \operatorname{Obj}(\C)$, then $(\G\F)(\id_{x}) = \id_{\G\F(x)}$.
+        \item{} If $f$ and $g$ are morphisms in $\C$ such that $gf$ is defined,
+        then $(\G\F)(gf) = (\G\F)(g)(\G\F)(f)$.
+    \end{enumerate}
+    To prove $1$, we simply compute,
+    \begin{align*}
+        (\G\F)(\id_x) &= \G(\id_{\F(x)})\\
+                      &= \id_{\G\F(x)}.
+    \end{align*}
+    
+    Similarly, we prove $2$, 
+    \begin{align*}
+        (\G\F)(gf) &= \G(\F(g)\F(f))\\
+                   &= (\G\F)(g)(\G\F)(f).
+    \end{align*}
+\end{proof}
+
+\end{document}
