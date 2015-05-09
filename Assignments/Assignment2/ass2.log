@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.10.5)  7 MAY 2015 09:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.10.5)  9 MAY 2015 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,41 +467,57 @@ Package xypdf Info: Line width: 0.39998pt on input line 7.
 File: artwork/unswlogo.jpg Graphic file (type jpg)
 
 <use artwork/unswlogo.jpg>
-Package pdftex.def Info: artwork/unswlogo.jpg used on input line 30.
+Package pdftex.def Info: artwork/unswlogo.jpg used on input line 34.
 (pdftex.def)             Requested size: 345.0pt x 126.35846pt.
 
 <artwork/mathslogo.jpg, id=2, 205.76875pt x 205.76875pt>
 File: artwork/mathslogo.jpg Graphic file (type jpg)
 
 <use artwork/mathslogo.jpg>
-Package pdftex.def Info: artwork/mathslogo.jpg used on input line 30.
+Package pdftex.def Info: artwork/mathslogo.jpg used on input line 34.
 (pdftex.def)             Requested size: 137.9979pt x 137.99934pt.
  [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./artwork/unswlogo.jpg> 
-<./artwork/mathslogo.jpg>] [1] (./ass2.aux) ) 
+<./artwork/mathslogo.jpg>] [1] [2]
+<artwork/sphere.png, id=27, 444.91219pt x 356.83313pt>
+File: artwork/sphere.png Graphic file (type png)
+
+<use artwork/sphere.png>
+Package pdftex.def Info: artwork/sphere.png used on input line 203.
+(pdftex.def)             Requested size: 284.52756pt x 228.19818pt.
+ [3] [4 <./artwork/sphere.png>]
+<artwork/triang.png, id=38, 263.48438pt x 212.29312pt>
+File: artwork/triang.png Graphic file (type png)
+
+<use artwork/triang.png>
+Package pdftex.def Info: artwork/triang.png used on input line 276.
+(pdftex.def)             Requested size: 256.0748pt x 206.33223pt.
+ [5 <./artwork/triang.png>] [6] (./ass2.aux) ) 
 Here is how much of TeX's memory you used:
- 6780 strings out of 493315
- 86056 string characters out of 6145893
- 212769 words of memory out of 5000000
- 10086 multiletter control sequences out of 15000+600000
- 10177 words of font info for 42 fonts, out of 8000000 for 9000
+ 6799 strings out of 493315
+ 86334 string characters out of 6145893
+ 216769 words of memory out of 5000000
+ 10100 multiletter control sequences out of 15000+600000
+ 11494 words of font info for 46 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,10n,45p,3236b,256s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf/fonts/type1/publ
-ic/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share
-/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share
-/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on ass2.pdf (2 pages, 371529 bytes).
+ 49i,11n,45p,3236b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/shar
+e/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm
+/cmmi7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
+re/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1
+/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
+/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/c
+mti12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ass2.pdf (7 pages, 438948 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
