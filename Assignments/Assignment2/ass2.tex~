@@ -230,7 +230,7 @@ We consider $S^{n-1}$ as a subset of $S^n$ by embedding it into the equator.
     However, for every vertex $x \in K \setminus K_{\sigma_2}^{(n-1)}$, there is a one
     chain joining a vertex in $K_{\sigma_2}^{(n-1)}$ to $x$. Hence
     every point $x \in K \setminus K_{\sigma_2}^{(n-1)}$ is the $0$-boundary
-    of a $1$-chain 
+    of a $1$-chain, modulo points of $K_{\sigma_2}^{(n-1)}$. Hence $H_0(S^n,S^{n-1}) \isom 0$.
 \end{proof}
 
 \section*{Question 5}
